@@ -1,4 +1,4 @@
-import HolidaysPage from "@/templates/Holidays/HolidaysPage";
+import HolidaysPage from "@/templates/HolidaysPage";
 
 const holidays = () => {
   return <HolidaysPage />;

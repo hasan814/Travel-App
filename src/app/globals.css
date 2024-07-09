@@ -299,6 +299,17 @@ h3 {
   }
 }
 
+/* ========= Holiday =========== */
+.second-hero-section {
+  height: 75vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.holiday-page .second-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/Images/holidays-hero-bg.jpg");
+}
 /* ========= Footer =========== */
 footer {
   text-align: center;

@@ -45,3 +45,7 @@ export interface RecentHolidayItem {
   itemNights: string;
   itemPrice: string;
 }
+
+export interface HolidayHeroProps {
+  secondHeroTitle: string;
+}

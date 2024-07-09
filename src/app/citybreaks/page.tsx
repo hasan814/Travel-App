@@ -1,4 +1,4 @@
-import CityBreaksPage from "@/templates/CityBreaks/CityBreaksPage";
+import CityBreaksPage from "@/templates/CityBreaksPage";
 
 const CityBreaks = () => {
   return <CityBreaksPage />;
