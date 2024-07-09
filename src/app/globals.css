@@ -237,6 +237,45 @@ h3 {
   height: 500px;
 }
 
+/* ========= Recent Holiday =========== */
+.recent-holidays .img-div {
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.recent-holidays .h5,
+.recent-holidays .price {
+  font-size: 1.5rem;
+}
+
+.recent-holidays .item-description {
+  font-weight: 300;
+}
+.recent-holidays .item-description,
+.recent-holidays .item-nights {
+  font-size: 0.875rem;
+}
+
+.recent-holidays .row .col-lg-6:first-of-type .img-div {
+  background-image: url("../../public/Images/spain.jpg");
+}
+.recent-holidays .row .col-lg-6:nth-of-type(2) .img-div {
+  background-image: url("../../public/Images/portugal.jpg");
+}
+.recent-holidays .row .col-lg-6:nth-of-type(3) .img-div {
+  background-image: url("../../public/Images/greece.jpg");
+}
+.recent-holidays .row .col-lg-6:last-of-type .img-div {
+  background-image: url("../../public/Images/maldives.jpg");
+}
+
+@media screen and(max-width:576px) {
+  .recent-holidays .img-div {
+    height: 200px;
+  }
+}
 /* ========= Footer =========== */
 footer {
   text-align: center;

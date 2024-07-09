@@ -29,16 +29,16 @@ const Header = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto w-100 justify-content-center">
-            <Nav.Link href="/" className="text-light">
+            <Nav.Link href="/" className="text-light menu">
               Home
             </Nav.Link>
-            <Nav.Link href="/holidays" className="text-light">
+            <Nav.Link href="/holidays" className="text-light menu">
               Holidays
             </Nav.Link>
-            <Nav.Link href="/destinations" className="text-light">
+            <Nav.Link href="/destinations" className="text-light menu">
               Destinations
             </Nav.Link>
-            <Nav.Link href="/citybreaks" className="text-light">
+            <Nav.Link href="/citybreaks" className="text-light menu">
               City Break
             </Nav.Link>
           </Nav>

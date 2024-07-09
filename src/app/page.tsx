@@ -1,9 +1,10 @@
+import RecentHolidaySection from "@/modules/RecentHolidaySection";
 import LastHolidaySection from "@/modules/LastHolidaySection";
 import RecommendedSection from "@/modules/RecommendedSection";
-import HeroSection from "@/modules/HeroSection";
-import SearchForm from "@/modules/SearchForm";
 import HolidayPlanSection from "@/modules/HolidayPlanSection";
 import FavoritesSection from "@/modules/FavoritesSection";
+import HeroSection from "@/modules/HeroSection";
+import SearchForm from "@/modules/SearchForm";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       </div>
       <HolidayPlanSection itemHolidayPlanTitle="Plan Your Summer" />
       <FavoritesSection />
+      <RecentHolidaySection />
     </div>
   );
 };

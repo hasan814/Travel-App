@@ -28,3 +28,20 @@ export interface RecommendedSectionProps {
 export interface HolidayPlanSectionProps {
   itemHolidayPlanTitle: string;
 }
+
+export interface RecentHolidayCardProps {
+  itemTitle: string;
+  itemImage: string | StaticImageData;
+  itemDescription: string;
+  itemNights: string;
+  itemPrice: string;
+}
+
+export interface RecentHolidayItem {
+  id: number;
+  itemImage: string | StaticImageData;
+  itemTitle: string;
+  itemDescription: string;
+  itemNights: string;
+  itemPrice: string;
+}
