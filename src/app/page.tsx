@@ -5,6 +5,7 @@ import HolidayPlanSection from "@/modules/HolidayPlanSection";
 import FavoritesSection from "@/modules/FavoritesSection";
 import HeroSection from "@/modules/HeroSection";
 import SearchForm from "@/modules/SearchForm";
+import NeedInspirationSection from "@/modules/NeedInspirationSection";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <HolidayPlanSection itemHolidayPlanTitle="Plan Your Summer" />
       <FavoritesSection />
       <RecentHolidaySection />
+      <NeedInspirationSection />
     </div>
   );
 };
