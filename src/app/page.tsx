@@ -3,6 +3,7 @@ import RecommendedSection from "@/modules/RecommendedSection";
 import HeroSection from "@/modules/HeroSection";
 import SearchForm from "@/modules/SearchForm";
 import HolidayPlanSection from "@/modules/HolidayPlanSection";
+import FavoritesSection from "@/modules/FavoritesSection";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <RecommendedSection itemRecommendedTitle="Recommended for you" />
       </div>
       <HolidayPlanSection itemHolidayPlanTitle="Plan Your Summer" />
+      <FavoritesSection />
     </div>
   );
 };
