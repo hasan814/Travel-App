@@ -159,6 +159,45 @@ h3 {
   font-size: 1.1rem;
 }
 
+/* ========= Recommended =========== */
+.recommended-section h3 {
+  font-size: 1.5rem;
+}
+
+.recommended-section .container {
+  background-position: center;
+  background-size: cover;
+}
+
+.recommended-section .container .bg-shape {
+  background-color: var(--secondary-bg-color);
+  background-size: cover;
+  width: 25%;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.home-page .recommended-section .container {
+  background-image: url("../../public/Images/recommended-section-bg.jpg");
+}
+
+@media (max-width: 992px) {
+  .recommended-section .container .bg-shape {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .recommended-section .container .bg-shape {
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
 /* ========= Footer =========== */
 footer {
   text-align: center;

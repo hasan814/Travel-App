@@ -21,3 +21,7 @@ export interface HolidayItem {
   itemTitle: string;
   itemDescription: string;
 }
+
+export interface RecommendedSectionProps {
+  itemRecommendedTitle: string;
+}
