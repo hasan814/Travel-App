@@ -49,3 +49,16 @@ export interface RecentHolidayItem {
 export interface HolidayHeroProps {
   secondHeroTitle: string;
 }
+
+export interface EveryoneHolidaysCardProps {
+  itemTitle: string;
+  itemSubTitle: string;
+  itemPrice: string;
+}
+
+export interface HolidayEveryoneItem {
+  id: number;
+  itemTitle: string;
+  itemSubTitle: string;
+  itemPrice: string;
+}

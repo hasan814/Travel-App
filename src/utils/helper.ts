@@ -1,4 +1,4 @@
-import { HolidayItem, RecentHolidayItem } from "src/types";
+import { HolidayEveryoneItem, HolidayItem, RecentHolidayItem } from "src/types";
 
 import LondonImg from "../../public/Images/holiday-london.jpg";
 import DubaiImg from "../../public/Images/holiday-dubai.jpg";
@@ -69,3 +69,44 @@ export const holidayData: RecentHolidayItem[] = [
     itemPrice: "$2500",
   },
 ];
+
+export const holidayEveryone: HolidayEveryoneItem[] = [
+  {
+    id: 1,
+    itemTitle: "Beach Getaway",
+    itemSubTitle: "Relax by the sea",
+    itemPrice: "$300",
+  },
+  {
+    id: 2,
+    itemTitle: "Mountain Adventure",
+    itemSubTitle: "Explore the peaks",
+    itemPrice: "$450",
+  },
+  {
+    id: 3,
+    itemTitle: "City Tour",
+    itemSubTitle: "Discover urban treasures",
+    itemPrice: "$200",
+  },
+  {
+    id: 4,
+    itemTitle: "Desert Safari",
+    itemSubTitle: "Experience the dunes",
+    itemPrice: "$350",
+  },
+  {
+    id: 5,
+    itemTitle: "Forest Retreat",
+    itemSubTitle: "Unwind in nature",
+    itemPrice: "$400",
+  },
+  {
+    id: 6,
+    itemTitle: "Island Hopping",
+    itemSubTitle: "Adventure through islands",
+    itemPrice: "$500",
+  },
+];
+
+export default holidayItems;
