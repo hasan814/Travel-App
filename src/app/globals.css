@@ -198,6 +198,18 @@ h3 {
   }
 }
 
+/* ========= Holiday =========== */
+.holiday-plan-section {
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.home-page .holiday-plan-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../../public/Images/holiday-plan-bg.jpg");
+}
+
 /* ========= Footer =========== */
 footer {
   text-align: center;
