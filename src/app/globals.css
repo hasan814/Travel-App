@@ -17,6 +17,8 @@
   text-decoration: none;
 }
 
+/* ========= Global =========== */
+
 h1 {
   font-size: 4.5rem;
 }
@@ -53,5 +55,80 @@ h3 {
   }
   h3 {
     font-size: 1.75rem;
+  }
+}
+
+/* ========= Btn =========== */
+#green-btn {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+#green-btn {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* ========= Hero =========== */
+.carousel-item1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../public/Images/header-img1.jpg");
+}
+
+.carousel-item2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../public/Images/header-img2.jpg");
+}
+
+.carousel-item3 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../../public/Images/header-img3.jpg");
+}
+
+.carousel-item1,
+.carousel-item2,
+.carousel-item3 {
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and(max-width:992px) {
+  .carousel-item1 {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../public/Images/header-img1.jpg");
+  }
+
+  .carousel-item2 {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../public/Images/header-img2.jpg");
+  }
+
+  .carousel-item3 {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("../../public/Images/header-img3.jpg");
   }
 }
