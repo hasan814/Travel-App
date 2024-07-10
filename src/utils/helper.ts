@@ -1,4 +1,9 @@
-import { HolidayEveryoneItem, HolidayItem, RecentHolidayItem } from "src/types";
+import {
+  HolidayEveryoneItem,
+  HolidayItem,
+  NextHolidayDataType,
+  RecentHolidayItem,
+} from "src/types";
 
 import LondonImg from "../../public/Images/holiday-london.jpg";
 import DubaiImg from "../../public/Images/holiday-dubai.jpg";
@@ -109,4 +114,45 @@ export const holidayEveryone: HolidayEveryoneItem[] = [
   },
 ];
 
-export default holidayItems;
+export const nextHoliday: NextHolidayDataType[] = [
+  {
+    id: 1,
+    itemTitle: "Beach Getaway",
+  },
+  {
+    id: 2,
+    itemTitle: "Mountain Adventure",
+  },
+  {
+    id: 3,
+    itemTitle: "City Tour",
+  },
+  {
+    id: 4,
+    itemTitle: "Desert Safari",
+  },
+  {
+    id: 5,
+    itemTitle: "Forest Retreat",
+  },
+  {
+    id: 6,
+    itemTitle: "Island Hopping",
+  },
+  {
+    id: 7,
+    itemTitle: "Cultural Expedition",
+  },
+  {
+    id: 8,
+    itemTitle: "Cruise Journey",
+  },
+  {
+    id: 9,
+    itemTitle: "Skiing Trip",
+  },
+  {
+    id: 10,
+    itemTitle: "Historical Tour",
+  },
+];

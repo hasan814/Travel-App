@@ -62,3 +62,12 @@ export interface HolidayEveryoneItem {
   itemSubTitle: string;
   itemPrice: string;
 }
+
+export interface NextHolidayCardtype {
+  itemTitle: string;
+}
+
+export interface NextHolidayDataType {
+  id: number;
+  itemTitle: string;
+}
