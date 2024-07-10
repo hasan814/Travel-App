@@ -455,6 +455,25 @@ h3 {
   background-image: url("../../public/Images/city-breaks-need-inspiration-bg.jpg");
 }
 
+/* ========= Destination =========== */
+.destinations-page .second-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/Images/destinations-hero-bg.jpg");
+}
+
+.destinations-page .holiday-plan-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)),
+    url("../../public/Images/destinations-holiday-plan-bg.jpg");
+}
+
+.destinations-page .need-inspiration-section {
+  background-image: url("../../public/Images/destinations-need-inspiration-bg.jpg");
+}
+
+.destinations-page .recommended-section .container {
+  background-image: url("../../public/Images/destinations-recommended-section-bg.jpg");
+}
+
 /* ========= Footer =========== */
 footer {
   text-align: center;

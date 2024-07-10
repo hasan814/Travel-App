@@ -106,3 +106,29 @@ export interface ParisBreakCardType {
   itemNights: string;
   itemPrice: string;
 }
+
+export interface EuropeBreakCardType {
+  id: number;
+  itemImage: string | StaticImageData;
+  itemTitle: string;
+  itemSubTitle: string;
+  itemNights: string;
+  itemPrice: string;
+}
+export interface AsiaBreakCardType {
+  id: number;
+  itemImage: string | StaticImageData;
+  itemTitle: string;
+  itemSubTitle: string;
+  itemNights: string;
+  itemPrice: string;
+}
+
+export interface AfricaBreakCardType {
+  id: number;
+  itemImage: string | StaticImageData;
+  itemTitle: string;
+  itemSubTitle: string;
+  itemNights: string;
+  itemPrice: string;
+}

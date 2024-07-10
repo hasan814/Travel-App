@@ -1,5 +1,8 @@
 import {
+  AfricaBreakCardType,
   AmestBreakCardType,
+  AsiaBreakCardType,
+  EuropeBreakCardType,
   HolidayEveryoneItem,
   HolidayItem,
   LondonBreakCardType,
@@ -37,6 +40,27 @@ import ParisHotel3 from "../../public/Images/france-hotel3.jpg";
 import ParisHotel4 from "../../public/Images/france-hotel4.jpg";
 import ParisHotel5 from "../../public/Images/france-hotel5.jpg";
 import ParisHotel6 from "../../public/Images/france-hotel6.jpg";
+
+import EuropeHotel1 from "../../public/Images/amsterdam-hotel1.jpg";
+import EuropeHotel2 from "../../public/Images/london-hotel1.jpg";
+import EuropeHotel3 from "../../public/Images/france-hotel1.jpg";
+import EuropeHotel4 from "../../public/Images/amsterdam-hotel4.jpg";
+import EuropeHotel5 from "../../public/Images/london-hotel2.jpg";
+import EuropeHotel6 from "../../public/Images/france-hotel4.jpg";
+
+import AsiaHotel1 from "../../public/Images/bali-resort1.jpg";
+import AsiaHotel2 from "../../public/Images/thailand-resort1.jpg";
+import AsiaHotel3 from "../../public/Images/bali-resort2.jpg";
+import AsiaHotel4 from "../../public/Images/malaysia-resort1.jpg";
+import AsiaHotel5 from "../../public/Images/thailand-resort2.jpg";
+import AsiaHotel6 from "../../public/Images/bali-resort2.jpg";
+
+import AfricaHotel1 from "../../public/Images/egypt-resort1.jpg";
+import AfricaHotel2 from "../../public/Images/morocco-resort1.jpg";
+import AfricaHotel3 from "../../public/Images/egypt-resort2.jpg";
+import AfricaHotel4 from "../../public/Images/egypt-resort3.jpg";
+import AfricaHotel5 from "../../public/Images/morocco-resort2.jpg";
+import AfricaHotel6 from "../../public/Images/egypt-resort3.jpg";
 
 export const holidayItems: HolidayItem[] = [
   {
@@ -329,6 +353,159 @@ export const parisCityBreakCards: ParisBreakCardType[] = [
     itemImage: ParisHotel6,
     itemTitle: "Palace of Versailles",
     itemSubTitle: "A day of royal splendor",
+    itemNights: "2 nights",
+    itemPrice: "$400",
+  },
+];
+
+export const europeCityBreakCards: EuropeBreakCardType[] = [
+  {
+    id: 1,
+    itemImage: EuropeHotel1,
+    itemTitle: "Rome Colosseum Tour",
+    itemSubTitle: "Discover ancient history",
+    itemNights: "3 nights",
+    itemPrice: "$400",
+  },
+  {
+    id: 2,
+    itemImage: EuropeHotel2,
+    itemTitle: "Barcelona Sagrada Familia",
+    itemSubTitle: "Marvel at Gaudi's masterpiece",
+    itemNights: "2 nights",
+    itemPrice: "$350",
+  },
+  {
+    id: 3,
+    itemImage: EuropeHotel3,
+    itemTitle: "Venice Gondola Ride",
+    itemSubTitle: "Romantic canals",
+    itemNights: "2 nights",
+    itemPrice: "$300",
+  },
+  {
+    id: 4,
+    itemImage: EuropeHotel4,
+    itemTitle: "Athens Acropolis Visit",
+    itemSubTitle: "Ancient Greek ruins",
+    itemNights: "3 nights",
+    itemPrice: "$350",
+  },
+  {
+    id: 5,
+    itemImage: EuropeHotel5,
+    itemTitle: "Berlin Brandenburg Gate",
+    itemSubTitle: "Historical landmarks",
+    itemNights: "2 nights",
+    itemPrice: "$250",
+  },
+  {
+    id: 6,
+    itemImage: EuropeHotel6,
+    itemTitle: "Prague Castle Tour",
+    itemSubTitle: "Fairytale architecture",
+    itemNights: "3 nights",
+    itemPrice: "$300",
+  },
+];
+
+export const asiaCityBreakCards: AsiaBreakCardType[] = [
+  {
+    id: 1,
+    itemImage: AsiaHotel1,
+    itemTitle: "Great Wall of China",
+    itemSubTitle: "Walk along historic fortifications",
+    itemNights: "3 nights",
+    itemPrice: "$500",
+  },
+  {
+    id: 2,
+    itemImage: AsiaHotel2,
+    itemTitle: "Tokyo Skytree Visit",
+    itemSubTitle: "Stunning views of Tokyo",
+    itemNights: "2 nights",
+    itemPrice: "$450",
+  },
+  {
+    id: 3,
+    itemImage: AsiaHotel3,
+    itemTitle: "Angkor Wat Tour",
+    itemSubTitle: "Explore ancient temples",
+    itemNights: "4 nights",
+    itemPrice: "$400",
+  },
+  {
+    id: 4,
+    itemImage: AsiaHotel4,
+    itemTitle: "Marina Bay Sands",
+    itemSubTitle: "Luxurious stay in Singapore",
+    itemNights: "3 nights",
+    itemPrice: "$600",
+  },
+  {
+    id: 5,
+    itemImage: AsiaHotel5,
+    itemTitle: "Taj Mahal Visit",
+    itemSubTitle: "Witness the iconic mausoleum",
+    itemNights: "2 nights",
+    itemPrice: "$350",
+  },
+  {
+    id: 6,
+    itemImage: AsiaHotel6,
+    itemTitle: "Mount Fuji Climb",
+    itemSubTitle: "Adventure at Japan's highest peak",
+    itemNights: "3 nights",
+    itemPrice: "$500",
+  },
+];
+
+export const africaCityBreakCards: AfricaBreakCardType[] = [
+  {
+    id: 1,
+    itemImage: AfricaHotel1,
+    itemTitle: "Table Mountain Hike",
+    itemSubTitle: "Panoramic views of Cape Town",
+    itemNights: "2 nights",
+    itemPrice: "$300",
+  },
+  {
+    id: 2,
+    itemImage: AfricaHotel2,
+    itemTitle: "Victoria Falls Visit",
+    itemSubTitle: "Marvel at the majestic waterfall",
+    itemNights: "3 nights",
+    itemPrice: "$450",
+  },
+  {
+    id: 3,
+    itemImage: AfricaHotel3,
+    itemTitle: "Sahara Desert Safari",
+    itemSubTitle: "Experience the vast desert",
+    itemNights: "4 nights",
+    itemPrice: "$500",
+  },
+  {
+    id: 4,
+    itemImage: AfricaHotel4,
+    itemTitle: "Marrakech City Tour",
+    itemSubTitle: "Explore the vibrant markets",
+    itemNights: "3 nights",
+    itemPrice: "$350",
+  },
+  {
+    id: 5,
+    itemImage: AfricaHotel5,
+    itemTitle: "Mount Kilimanjaro Climb",
+    itemSubTitle: "Adventure to Africa's highest peak",
+    itemNights: "5 nights",
+    itemPrice: "$600",
+  },
+  {
+    id: 6,
+    itemImage: AfricaHotel6,
+    itemTitle: "Pyramids of Giza",
+    itemSubTitle: "Discover ancient wonders",
     itemNights: "2 nights",
     itemPrice: "$400",
   },
