@@ -71,3 +71,38 @@ export interface NextHolidayDataType {
   id: number;
   itemTitle: string;
 }
+
+export interface cityBreakCardType {
+  itemPrice: string;
+  itemTitle: string;
+  itemNights: string;
+  itemSubTitle: string;
+  itemImage: string | StaticImageData;
+}
+
+export interface AmestBreakCardType {
+  id: number;
+  itemImage: string | StaticImageData;
+  itemTitle: string;
+  itemSubTitle: string;
+  itemNights: string;
+  itemPrice: string;
+}
+
+export interface LondonBreakCardType {
+  id: number;
+  itemImage: string | StaticImageData;
+  itemTitle: string;
+  itemSubTitle: string;
+  itemNights: string;
+  itemPrice: string;
+}
+
+export interface ParisBreakCardType {
+  id: number;
+  itemImage: string | StaticImageData;
+  itemTitle: string;
+  itemSubTitle: string;
+  itemNights: string;
+  itemPrice: string;
+}

@@ -419,6 +419,42 @@ h3 {
     url("../../public/Images/thailand-holiday.jpg");
 }
 
+/* ========= HolidayPlan =========== */
+.holiday-page .holiday-plan-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)),
+    url("../../public/Images/holidays-holiday-plan-bg.jpg");
+  background-position: center;
+}
+
+/* ========= Holiday recommended =========== */
+.holiday-page .recommended-section .container {
+  background-image: url("../../public/Images/holidays-recommended-section-bg.jpg");
+}
+
+/* ========= City Break =========== */
+.city-breaks-page .second-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/Images/city-breaks-hero-bg.jpg");
+}
+
+/* ========= Amestrdam City =========== */
+.city-break-section span {
+  font-size: 1.6rem;
+}
+
+.city-breaks-page .holiday-plan-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)),
+    url("../../public/Images/city-breaks-holiday-plan-bg.jpg");
+}
+
+.city-breaks-page .recommended-section .container {
+  background-image: url("../../public/Images/city-breaks-recommended-section-bg.jpg");
+}
+
+.city-breaks-page .need-inspiration-section {
+  background-image: url("../../public/Images/city-breaks-need-inspiration-bg.jpg");
+}
+
 /* ========= Footer =========== */
 footer {
   text-align: center;
